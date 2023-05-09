@@ -63,7 +63,7 @@ def main():
 9. 何婉如：寓意为温柔如水、婉转动人。
 10. 何瑶琴：寓意为美如玉、琴韵悠扬。
 '''
-    human_msg='''姓"罗"，取三个字的名字，中间字固定为"乾"
+    human_msg='''性别女，姓"罗"，取三个字的名字"
     '''
     messages = [
         SystemMessage(content=system_msg_content),
