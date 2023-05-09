@@ -97,7 +97,7 @@ def main():
 10. 欧阳婉：寓意为温柔婉约、性格优雅的女子。
 
 '''
-    human_msg = '''性别男，姓"东方"，取三个字的名字"
+    human_msg = '''姓"东方"，取三个字的名字"
     '''
     messages = [
         SystemMessage(content=system_msg_content),
