@@ -95,6 +95,8 @@ def main():
 输入：
 姓"{last_name}"，取三个字的名字
 
+输出：
+
 '''
 
     prompt = PromptTemplate(
