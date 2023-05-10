@@ -100,8 +100,9 @@ def main():
         SystemMessage(content=system_msg_content),
         HumanMessage(content=human_msg)
     ]
-    result = chat(messages)
-    print(result.content)
+    result = chat.generate([messages])
+    print(result)
+    print(result.llm_output)
 
 
 if __name__ == '__main__':
