@@ -70,7 +70,7 @@ def main():
         text_area = gr.TextArea()
         submit_button.click(predict, inputs=[last_name_input, name_length_radio, gender_raido],
                             outputs=text_area)
-    demo.launch()
+    demo.launch(server_name="0.0.0.0")
 
 
 if __name__ == '__main__':
