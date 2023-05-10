@@ -101,7 +101,7 @@ def main():
         HumanMessage(content=human_msg)
     ]
     result = chat.generate([messages])
-    print(result.generations)
+    print(result.generations[0][0].text)
     print(result.llm_output)
 
 
