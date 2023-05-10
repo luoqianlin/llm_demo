@@ -95,8 +95,7 @@ def main():
 9. 欧阳晴（Qíng）：寓意为晴空万里、心情愉悦的女子。
 10. 欧阳婉（Wǎn）：寓意为温柔婉约、性格优雅的女子。'''
 
-    human_msg = '''姓"东方"，取三个字的名字"
-        '''
+    human_msg = '''姓"{last_name}"，取{name_length}个字的名字"'''.format(last_name='东方', name_length='2')
     messages = [
         SystemMessage(content=system_msg_content),
         HumanMessage(content=human_msg)
