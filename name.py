@@ -62,7 +62,7 @@ def main():
     logger = logging.getLogger('openai')
     logger.setLevel(logging.DEBUG)
 
-    with gr.Blocks() as demo:
+    with gr.Blocks(label='AI取名') as demo:
         last_name_input = gr.Textbox(label="姓氏")
         gender_raido = gr.Radio(["男", "女", "未知"], label="性别")
         name_length_radio = gr.Radio(["单字(如：朱茵)", "双字(如：刘德华)"], label="名字类型")
